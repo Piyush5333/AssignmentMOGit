@@ -11,10 +11,8 @@ public class Sum_OF_Numbers {
          int num3 = 111;
          int num4 = 8989;
          int num5 = 7876;
-         
-         float sum = num1+num2+num3+num4+num5;
-         
-         System.out.println("Sum of five number :"+sum);
+                  
+         System.out.println("Sum of five number :"+ (num1+num2+num3+num4+num5));
 	}
 
 }

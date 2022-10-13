@@ -7,13 +7,18 @@ public class Program_Break_If_String_Equals_Selenium
 	   
 		String str[] = {"Java","JavaScript","Selenium","Python","Mukesh"};
 	   
-	   for(String str1:str)
-	   {
-		   if(str1.equals("Selenium"))
-		   {
-			   System.out.println("Stop Execution of Program At String: "+str1);
-		   }  
-	   }
+	    System.out.println("Start Execution of Program");
+		for(int i=0;i<str.length;i++)
+		{
+			System.out.println(str[i]);
+			if(str[i]=="Selenium")
+			{
+				System.out.println("Stop Execution of Program");	
+			    break;
+			}
+		}
+		
+		
 	}
 
 }
